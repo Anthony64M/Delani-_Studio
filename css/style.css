@@ -65,7 +65,7 @@ html{
 
 /*----===Services Section====----  */
 .service{
-        text-align: center;
+    text-align: center;
     background-image: url("../assets/backgrounds/s_image.jpg");
     color: white;
     background-position: center;
@@ -80,4 +80,16 @@ html{
     padding-bottom: 10%;
 }
 /* ----====end of service section===--- */
+
+/* ----===What-we-do Section===---- */
+.business{
+    font-family: 'STIX Two Math', serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.business .header{
+    padding-bottom: 38px;
+}
+/* ----====End of business sect===---- */
+
 
