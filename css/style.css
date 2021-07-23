@@ -90,6 +90,31 @@ html{
 .business .header{
     padding-bottom: 38px;
 }
+.flair{
+    padding: 6px;
+}
 /* ----====End of business sect===---- */
 
+/* ---==== Portfolio section===---- */
+#portf{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 10%;
+}
+.col-md-3 img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 400px;
+    margin: 20px;
+}
+.port{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+/* ---====End of Portfolio Section----==== */
+
+/* ---====Contact Section====---- */
 
