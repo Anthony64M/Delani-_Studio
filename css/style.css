@@ -117,4 +117,45 @@ html{
 /* ---====End of Portfolio Section----==== */
 
 /* ---====Contact Section====---- */
+.cont{
+    background-image: url('./assets/backgrounds/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.cont h1{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'STIX Two Math', serif;
+}
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: white;
+  }
+  #MERGE1{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+  }
+  #MERGE0{
+    width: 30%;
+  }
+  #comment{
+    margin-left: 20%;
+    width: 60%;
+  }
+  button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
 
+  /* ---====footer===--- */
