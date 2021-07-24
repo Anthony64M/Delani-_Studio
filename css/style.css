@@ -90,6 +90,15 @@ html{
 .business .header{
     padding-bottom: 38px;
 }
+#prod, #dev, #design{
+    display: none;
+    font-family: 'STIX Two Math', serif;
+    font-size: 18px;
+}
+#prod .flair, #dev .flair, #design .flair{
+    font-size: 24px;
+    font-weight: 600;
+}
 .flair{
     padding: 6px;
 }
@@ -118,7 +127,7 @@ html{
 
 /* ---====Contact Section====---- */
 .cont{
-    background-image: url('./assets/backgrounds/c_image.jpg');
+    background-image: url('../assets/backgrounds/c_image.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,8 +144,8 @@ input[type=text],input[type=email],#comment{
     background: transparent;
     color: white;
     font-size: 20px;
-    font-family: 'Copse', serif;
-  }
+    font-family: 'Abril Fatface', cursive;
+}
   .form-control::-webkit-input-placeholder {
     color: white;
   }
@@ -162,9 +171,126 @@ input[type=text],input[type=email],#comment{
   footer{
     text-align: center;
     padding-top: 30px;
-    font-family: 'Delius Swash Caps', cursive;
+    font-family: 'Abril Fatface', cursive;
   }
   footer p{
     margin-top: 10px;
   }
 
+  /* ----=====Effects=====----- */
+#on-img1,#on-img2,#on-img3,#on-img4,#on-img5,#on-img6,#on-img7,#on-img8{
+    display: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* ====----Responsiveness=====---- */
+@media only screen and (max-width: 755px){
+    #on-img1,#on-img2,#on-img3,#on-img4,#on-img5,#on-img6,#on-img7,#on-img8{
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 16px;
+        padding-top: 20%;
+    }
+    .col-md-3 img{
+        width: 100%px;
+        margin: 20px;
+    }
+    #portf{
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+    button{
+        margin-left: 2%;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    #on-img1,#on-img2,#on-img3,#on-img4,#on-img5,#on-img6,#on-img7,#on-img8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 20px;
+    }
+    .col-md-3 img{
+        width: 100%px;
+        margin: 20px;
+    }
+    #portf{
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+    button{
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    #MERGE0{
+        width: 84%;
+        margin-left: 4%;
+        padding-bottom: 10px;
+    }
+    #MERGE1{
+        width: 100%;
+        margin-left: 4%;
+        margin-bottom: 10px;
+    }
+    #comment{
+        margin-left: 4%;
+        width: 84%;
+    }
+
+}
+@media only screen and (min-width: 825px){
+    #on-img1,#on-img2,#on-img3,#on-img4,#on-img5,#on-img6,#on-img7,#on-img8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 20px;
+    padding-top:30%;
+    }
+    .col-md-3 img{
+        width: 400px;
+        margin: 20px;
+      }
+    #portf{
+        margin-left:10%;
+        margin-right: 10%; 
+    }
+}
+@media only screen and (min-width: 625px){
+    #on-img1,#on-img2,#on-img3,#on-img4,#on-img5,#on-img6,#on-img7,#on-img8{
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top:20%; 
+        font-size: 26px;
+    }
+    .col-md-3 img{
+        width: 400px;
+        margin: 20px;
+      }
+    #portf{
+    margin-left:6%;
+    margin-right: 10%; 
+    }
+
+}
+
+
+/* --------------=============THe End===============----------------- */
