@@ -143,48 +143,49 @@ html{
     padding-bottom: 20px;
     font-family: 'STIX Two Math', serif;
 }
-input[type=text],input[type=email],#comment{
-    background: transparent;
-    color: white;
-    font-size: 20px;
-    font-family: 'Abril Fatface', cursive;
-}
-/* .form-group .form-inline{
-    margin: 0px 0px 13px;
-}
-#MERGE1 .form-control{
-    margin: 0px 30px 0px 163.25px;
-    padding: 4.875px 9.75px;
-}
-#MERGE0 .form-control{
-    padding: 4.875px 9.75px;
-} */
-  .form-control::-webkit-input-placeholder {
-    color: white;
-  }
-  #MERGE1{
-    width: 30%;
-    /* margin-left: 18%;
-    margin-right: 30px; */
-  }
-  #MERGE0{
-    width: 30%;
-    /* margin-left: 14%;
-    margin-right: 30px;
-    float: right;
-    margin-top: -3.3rem;
-    margin-bottom: 2rem; */
-  }
-  #comment{
-    margin-left: 20%;
+form{
+    text-align: center;
+    margin: auto;
     width: 60%;
-  }
-  button{
-    margin-left: 20%;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-  }
+    padding-top: 2%;
+}
+form input, #comment{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+#name, #email{
+    width: 47%;
+    margin-bottom: 1.5%;
+    margin-right: 1%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#comment{
+    width: 93%;
+    margin-left: 2% ;
+    background-color: transparent;
+    height: 300px;
+    border: 2px solid white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.submit{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
   /* ---====footer===--- */
   footer{
     text-align: center;
