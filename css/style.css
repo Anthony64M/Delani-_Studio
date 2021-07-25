@@ -1,3 +1,6 @@
+/* *{
+    border: 1px dashed limegreen;
+} */
 /* font-family: 'Abril Fatface', cursive;
 font-family: 'STIX Two Math', serif; */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=STIX+Two+Math&display=swap" rel="stylesheet');
@@ -118,7 +121,7 @@ html{
     width: 400px;
     margin: 20px;
 }
-.port{
+.portf{
     text-align: center;
     padding-top: 40px;
     font-family: 'Abril Fatface', cursive;
@@ -146,16 +149,31 @@ input[type=text],input[type=email],#comment{
     font-size: 20px;
     font-family: 'Abril Fatface', cursive;
 }
+/* .form-group .form-inline{
+    margin: 0px 0px 13px;
+}
+#MERGE1 .form-control{
+    margin: 0px 30px 0px 163.25px;
+    padding: 4.875px 9.75px;
+}
+#MERGE0 .form-control{
+    padding: 4.875px 9.75px;
+} */
   .form-control::-webkit-input-placeholder {
     color: white;
   }
   #MERGE1{
     width: 30%;
-    margin-left: 18%;
-    margin-right: 30px;
+    /* margin-left: 18%;
+    margin-right: 30px; */
   }
   #MERGE0{
     width: 30%;
+    /* margin-left: 14%;
+    margin-right: 30px;
+    float: right;
+    margin-top: -3.3rem;
+    margin-bottom: 2rem; */
   }
   #comment{
     margin-left: 20%;
@@ -176,23 +194,40 @@ input[type=text],input[type=email],#comment{
   footer p{
     margin-top: 10px;
   }
+   footer img:hover{
+    animation: wobble 3s infinite;
+}
+
+@keyframes wobble {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(10);
+    }
+    10% {
+      transform: translateY(-10px);
+    }
+    20% {
+      transform: translateY(-10px);
+    }
+}
+
+
 
   /* ----=====Effects=====----- */
-#on-img1,#on-img2,#on-img3,#on-img4,#on-img5,#on-img6,#on-img7,#on-img8{
-    display: none;
-    color: black;
-    width: 100%;
-    height: 100%;
-    background-color: darkgray;
-    position: absolute;
-    top: 20px;
-    left: 35px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 25px;
-    padding-top: 50%;
-    font-family: 'Abril Fatface', cursive;
-}
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+         display: none;
+         color: black;
+         width: 100%;
+         height: 100%;
+         background-color:rgba(255, 255, 255, 0.456);
+         position: relative;
+         top: 20px;
+         left: 35px;
+         font-weight: bold; 
+         text-align: center;
+         font-size: 25px;
+         padding-top: 50%;
+         font-family: 'Abril Fatface', cursive;
+} 
 
 /* ====----Responsiveness=====---- */
 @media only screen and (max-width: 755px){
